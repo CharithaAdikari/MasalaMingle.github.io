@@ -237,3 +237,31 @@ textarea {
 #contact-us button:hover {
     background-color: #454544;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .content-container {
+
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0;
+        margin-top: 10px;
+   
+
+    }
+    .content-container p {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        padding: 10%;
+        color: white;
+        text-shadow: #000000 0px 2px 2px;
+    }
+    
+
+
+}
