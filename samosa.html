@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Vegetable Samosa</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 10px;
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        #recipe-details {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+
+        .recipe-image {
+            width: 60%;
+        }
+
+        .recipe-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .recipe-info {
+            display: flex;
+            flex-direction: column;
+            width: 1500px;
+            line-height: 1.5;
+            margin-left: 40px;
+        }
+
+        .ingredients,
+        .instructions {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                overflow-x: hidden;
+            }
+
+            #recipe-details {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .recipe-info {
+                margin-left: 0;
+                margin-top: 20px;
+                max-width: fit-content
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Crispy Vegetable Samosa</h1>
+        <p class="subtitle">A Crunchy Delight for Your Palate</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="recipe-details">
+        <div class="recipe-image">
+            <img src="samosa2.jpg" alt="Crispy Vegetable Samosa">
+        </div>
+
+        <div class="recipe-info">
+            <div class="ingredients">
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>2 cups mixed vegetables (peas, carrots, potatoes), finely chopped</li>
+                    <li>1 cup onions, finely chopped</li>
+                    <li>2 teaspoons ginger, grated</li>
+                    <li>2 teaspoons green chili, finely chopped</li>
+                    <li>1/2 cup coriander leaves, chopped</li>
+                    <li>1 teaspoon cumin seeds</li>
+                    <li>1 teaspoon coriander powder</li>
+                    <li>1/2 teaspoon turmeric powder</li>
+                    <li>1 teaspoon garam masala</li>
+                    <li>Salt to taste</li>
+                    <li>Spring roll or samosa wrappers</li>
+                    <li>Oil for frying</li>
+                </ul>
+            </div>
+
+            <div class="instructions">
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>In a pan, heat oil and add cumin seeds. Sauté onions until golden brown.</li>
+                    <li>Add ginger and green chili, and sauté for a minute.</li>
+                    <li>Throw in the mixed vegetables and cook until they are tender.</li>
+                    <li>Season with coriander powder, turmeric powder, garam masala, and salt. Mix well.</li>
+                    <li>Allow the mixture to cool, then fill the samosa wrappers with the prepared mixture.</li>
+                    <li>Seal the edges of the wrappers with water to form triangular shapes.</li>
+                    <li>Deep fry the samosas until they turn golden brown and crispy.</li>
+                    <li>Remove from oil and place on a paper towel to absorb excess oil.</li>
+                    <li>Serve hot with mint chutney or tamarind sauce.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Enjoy your delicious Crispy Vegetable Samosas!</p>
+    </footer>
+</body>

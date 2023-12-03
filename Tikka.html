@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paneer Tikka Masala</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 10px;
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #ffc107;
+
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        #recipe-details {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+
+        .recipe-image {
+            width: 60%;
+        }
+
+        .recipe-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .recipe-info {
+            display: flex;
+            flex-direction: column;
+            width: 1500px;
+            line-height: 1.5;
+            margin-left: 40px;
+        }
+
+        .ingredients,
+        .instructions {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+        }
+
+        
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                overflow-x: hidden;
+            }
+
+            #recipe-details {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .recipe-info {
+                margin-left: 0;
+                margin-top: 20px;
+                max-width: fit-content
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Paneer Tikka Masala</h1>
+        <p class="subtitle">A Spicy Delight for Your Palate</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="recipe-details">
+        <div class="recipe-image">
+            <img src="tikka.jpg" alt="Paneer Tikka Masala">
+        </div>
+
+        <div class="recipe-info">
+            <div class="ingredients">
+                <h2>Ingredients:</h2>
+                <ul>
+                    <li>250g paneer (Indian cottage cheese), cubed</li>
+                    <li>1 cup yogurt</li>
+                    <li>2 tablespoons ginger-garlic paste</li>
+                    <li>1 teaspoon turmeric powder</li>
+                    <li>1 teaspoon red chili powder</li>
+                    <li>1 teaspoon garam masala</li>
+                    <li>1 tablespoon vegetable oil</li>
+                    <li>1 large onion, finely chopped</li>
+                    <li>1 cup tomato puree</li>
+                    <li>1/2 cup cream</li>
+                    <li>Salt to taste</li>
+                    <li>Fresh coriander leaves for garnish</li>
+                </ul>
+            </div>
+
+            <div class="instructions">
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>In a bowl, mix yogurt with ginger-garlic paste, turmeric powder, red chili powder, garam masala,
+                        and salt. Marinate the paneer cubes in this mixture and refrigerate for at least 1 hour.</li>
+                    <li>Thread the marinated paneer onto skewers and grill until the edges are slightly charred.</li>
+                    <li>In a pan, heat vegetable oil and sauté chopped onions until golden brown.</li>
+                    <li>Add tomato puree and cook until the oil separates from the mixture.</li>
+                    <li>Stir in the grilled paneer and simmer for a few minutes.</li>
+                    <li>Pour in the cream, stir well, and let it simmer until the curry reaches the desired consistency.</li>
+                    <li>Garnish with fresh coriander leaves before serving.</li>
+                    <li>Enjoy your Paneer Tikka Masala with naan or rice!</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Savor the rich flavors of Paneer Tikka Masala!</p>
+    </footer>
+
+    
+</body>
+
+</html>

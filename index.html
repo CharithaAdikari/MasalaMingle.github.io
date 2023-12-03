@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>MasalaMingle</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Your Masala Mingle</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipe-catalog">Recipes</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section id="landingpage">
+        <div class="main">
+            <div class="content-container">
+
+                <p>Embark on a gastronomic adventure as you explore a treasure trove of authentic Indian recipes. From
+                    the fiery spices of our curries to the sweet indulgence of delightful desserts, our culinary
+                    offerings reflect the rich tapestry of Indian flavors and traditions.</p>
+
+                <a href="#seemore" class="cta-button">See more</a>
+            </div>
+    </section>
+
+
+
+    <section id="recipe-catalog">
+        <h2>Recipe Catalog</h2>
+        <div id="categories">
+            <button onclick="filterCategory('all')">All</button>
+            <button onclick="filterCategory('appetizers')">Appetizers</button>
+            <button onclick="filterCategory('mains')">Mains</button>
+            <button onclick="filterCategory('desserts')">Desserts</button>
+        </div>
+
+        <div id="recipes">
+            <a href="Chicken.html">
+            <div class="recipe-tile mains">
+                <img src="chicken.jpg" alt="Spicy Curry Delight">
+                <h2>Spicy Chicken Curry</h2>
+                <p class="post-meta">Published on March 15, 2023</p>
+                <p>
+                    Experience the rich flavors of Indian cuisine with our Spicy Chicken Curry.
+                    This aromatic dish is a perfect blend of spices, tender chicken, and a
+                    luscious curry sauce. Join us on a culinary journey to spice up your taste buds!
+                </p>
+            </div>
+        </a>
+        <a href="samosa.html">
+            <div class="recipe-tile appetizers">
+                <img src="samosa.jpg" alt="Samosa Sensation">
+                <h2>Crispy Vegetable Samosas</h2>
+                <p class="post-meta">Published on April 5, 2023</p>
+                <p>
+                    Delight your senses with the crispiness of our Vegetable Samosas. These golden
+                    parcels are filled with a delicious mix of vegetables and spices, offering a
+                    taste of India's famous street food. Experience the magic of these savory delights!
+                </p>
+            </div>
+        </a>
+        <a href="Gulab.html">
+            <div class="recipe-tile desserts">
+                <img src="Gulab Jamun Perfection.jpg" alt="Gulab Jamun Bliss">
+                <h2>Gulab Jamun Perfection</h2>
+                <p class="post-meta">Published on May 20, 2023</p>
+                <p>
+                    Indulge in the sweet ecstasy of our Gulab Jamuns.These soft and spongy
+                    milk dumplings soaked in fragrant sugar syrup are a treat for your taste buds.
+                    Join us as we explore the irresistible world of Indian desserts!.These desserts are very sweet and delicious.
+                </p>
+            </div>
+        </a>
+        <a href="Tikka.html">
+            <div class="recipe-tile mains">
+                <img src="Paneer Tikka Masala.jpg" alt="Spices of India">
+                <h2>Paneer Tikka Masala</h2>
+                <p class="post-meta">Published on June 10, 2023</p>
+                <p>
+                    Take your taste buds on an adventure with the vibrant flavors of Paneer Tikka Masala.
+                    This classic Indian dish features marinated paneer, grilled to perfection, and
+                    simmered in a rich and spicy tomato-based curry. Embark on a culinary journey with us!
+                </p>
+            </div>
+        </a>
+        
+
+    </section>
+
+    <section id="contact-us">
+        <div>
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Feel free to reach out to us!</p>
+
+            <form id="myForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="button" onclick="submitForm()">Submit</button>
+                <div id="successMessage" style="display: none; color: green;">Submit successful!</div>
+            </form>
+        </div>
+    </section>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
